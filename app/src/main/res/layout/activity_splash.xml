@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    tools:context=".SplashActivity">
+    
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/the_spinoff"
+        android:padding="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="25dp"
+
+        android:layout_marginBottom="15dp"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/splashprogress"
+        android:layout_width="220dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="120"
+        android:indeterminate="true"
+        android:progress="0"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ugt"
+        android:layout_marginLeft="15dp"
+        />
+    
+
+
+
+
+</LinearLayout>
